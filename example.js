@@ -29,3 +29,20 @@ function describe_object_array_manipulation() {
 }
 
 describe_object_array_manipulation()
+
+
+
+function merge_an_array_of_objects_into_an_object_with_arrays() {
+  const obj_old = [
+    { uname: 'frank', value1: 9, value2: 12}, 
+    { uname: 'susan', value1: 9, value2: 12}
+  ]
+  let obj_new = {}
+  iterate_array(obj_old, obj_new) 
+  
+}
+function iterate_array() {
+
+}
+  // check if the obj_new has the key 'uname' if no create with an array.
+  if (!('uname' in obj_new)) { obj_new[]
